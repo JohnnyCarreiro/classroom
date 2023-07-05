@@ -16,6 +16,35 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@core/*": [
+        "./src/@core/*"
+      ],
+      "@application/*": [
+        "./src/@core/domain/application/*"
+      ],
+      "@entities/*": [
+        "./src/@core/domain/entities/*"
+      ],
+      "@repositories/*": [
+        "./src/@core/domain/repositories/*"
+      ],
+      "@helpers/*": [
+        "./src/@core/helpers/*"
+      ],
+      "@shared/*": [
+        "./src/@core/domain/@shared/*"
+      ],
+      "@infra/*": [
+        "./src/infra/*"
+      ],
+      "@modules/*": [
+        "./src/modules/*"
+      ],
+      "@test/*": [
+        "./test/*"
+      ]
+    }
   }
 }
